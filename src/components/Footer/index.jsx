@@ -1,12 +1,14 @@
 import React from "react";
 
 import { Img, Text } from "components";
+import { useNavigate } from "react-router-dom";
 
 const Footer = (props) => {
+  const navigate = useNavigate();
   return (
     <>
-      <footer className={props.className}>
-        <div className="flex flex-col gap-4 items-center justify-center w-full">
+      <footer className={` ${props.className} w-[100%] pt-[3em]`}>
+        {/* <div className="flex flex-col gap-4 items-center justify-center w-full">
           <Text
             className="md:ml-[0] ml-[42px] mr-[1110px] md:text-3xl sm:text-[28px] text-[32px] text-gray-100"
             size="txtOpenSansRomanBold32Gray100"
@@ -60,7 +62,123 @@ const Footer = (props) => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+          <Text
+            className=" md:text-3xl sm:text-[28px] text-center text-[32px] text-gray-100"
+            size="txtOpenSansRomanBold32Gray100"
+          >
+            Contact Details
+          </Text>
+          <div className="flex md:flex-col flex-row md:gap-10 gap-[8em]  items-start justify-start w-full p-[4em] md-p-0" >
+            <div className="flex md:flex-1 flex-col  justify-start w-[45%] md:w-full">
+              <div className="flex flex-col  justify-start w-full">
+                <div className="flex flex-col gap-[11px]  justify-start w-full">
+                  <Text
+                    className="md:text-2xl sm:text-[18px] text-[30px] text-gray-100"
+                    size="txtOpenSansRomanBold32Gray100"
+                  >
+                    KOKO TV
+                  </Text>
+                  <div className="flex flex-col gap-5">
+                  <div>
+                  <Text
+                    className="text-base text-[14px] text-gray-100"
+                    size="txtOpenSansRomanBold16Gray100"
+                  >
+                   Telephone: 
+                  </Text>
+                   <span className="text-gray-100 text-[13px] " size= "txtOpenSansRomanRegular8Gray100">845-207-8055</span>
+                  </div>
+                  <div>
+                  <Text
+                    className="text-base text-[14px] text-gray-100"
+                    size="txtOpenSansRomanBold16Gray100"
+                  >
+                   Address:
+                  </Text>
+                   <span className="text-gray-100 text-[13px] " size= "txtOpenSansRomanRegular8Gray100">276 5th Avenue Suite 704-3216 NY, NY 10001</span>
+                  </div>
+                  <div>
+                  <Text
+                    className="text-base text-[14px] text-gray-100"
+                    size="txtOpenSansRomanBold16Gray100"
+                  >
+                   Email: 
+                  </Text>
+                   <span className="text-gray-100 text-[13px] " size= "txtOpenSansRomanRegular8Gray100">info@kokotv.co</span>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex md:flex-1 flex-col  justify-start w-[30%] md:w-full">
+              <div className="flex flex-col justify-start w-full">
+                <div className="flex flex-col gap-[11px]  justify-start w-full">
+                  <Text
+                    className="md:text-2xl sm:text-[18px] text-[22px] text-gray-100"
+                    size="txtOpenSansRomanBold32Gray100"
+                  >
+                    CRM INFO
+                  </Text>
+                  <div className="flex flex-col gap-0">
+                  <div>
+                  <Text
+                    className="text-base text-[14px] text-gray-100"
+                    size="txtOpenSansRomanBold16Gray100"
+                  >
+                   Klaviyo 
+                  </Text>
+                  
+                  </div>
+                  <div>
+                  <Text
+                    className="text-base text-[14px] text-gray-100"
+                    size="txtOpenSansRomanBold16Gray100"
+                  >
+                   Email: 
+                  </Text>
+                   <span className="text-gray-100 text-[13px] " size= "txtOpenSansRomanRegular8Gray100">info@kokotv.co</span><br />
+                   <span className="text-gray-100 text-[13px] " size= "txtOpenSansRomanRegular8Gray100">Password shared via WhatsApp</span>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+          <div className="flex sm:flex-col flex-row font-opensans gap-8 items-start justify-start md:w-full md:mt-[2em] pl-[4em] md:p-0">
+            <a className="text-base text-white-A700">
+              <Text
+                className="common-pointer"
+                size="txtOpenSansRomanRegular16"
+                onClick={() => navigate("/privacy")}
+              >
+                Privacy Policy
+              </Text>
+            </a>
+            <Text
+              className="common-pointer text-base text-white-A700"
+              size="txtOpenSansRomanRegular16"
+              onClick={() => navigate("/disclaimer")}
+            >
+              Disclaimer
+            </Text>
+            <a className="text-base text-white-A700">
+              <Text
+                className="common-pointer"
+                size="txtOpenSansRomanRegular16"
+                onClick={() => navigate("/termsconditions")}
+              >
+                Terms and Conditions
+              </Text>
+            </a>
+            <Text
+              className="text-base text-white-A700"
+              size="txtOpenSansRomanRegular16"
+            >
+              Terms of Use
+            </Text>
+          </div>
       </footer>
     </>
   );
