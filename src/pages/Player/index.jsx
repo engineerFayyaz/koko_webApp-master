@@ -1,104 +1,17 @@
 import React from "react";
 
 import { Button, Img, Line, Text } from "components";
-
+import Header from "components/Header";
 const PlayerPage = () => {
   return (
     <>
-      <div className="bg-gray-900_01 flex flex-col font-opensans items-center justify-end mx-auto pt-1.5 w-full">
+      <div className="bg-gray-900_01 flex flex-col font-opensans items-center justify-end mx-auto  w-full overflow-x-hidden">
         <div className="flex flex-col gap-[15px] items-center justify-start w-full">
-          <div className="flex md:flex-col flex-row md:gap-5 items-start justify-start max-w-[1384px] mx-auto md:px-5 w-full">
-            <div className="flex md:flex-1 md:flex-col flex-row md:gap-10 items-center justify-between w-[67%] md:w-full">
-              <Img
-                className="h-[79px] md:h-auto object-cover"
-                src="images/img_kokotv2.png"
-                alt="kokotvTwo"
-              />
-              <div className="flex flex-row items-start justify-between w-[51%] md:w-full">
-                <div className="flex flex-row gap-2 items-center justify-center w-auto">
-                  <Img
-                    className="h-[22px] w-[22px]"
-                    src="images/img_frame.svg"
-                    alt="frame"
-                  />
-                  <Text
-                    className="text-base text-white-A700 w-auto"
-                    size="txtOpenSansRomanRegular16"
-                  >
-                    Home
-                  </Text>
-                </div>
-                <div className="flex flex-row gap-2 items-center justify-center w-auto">
-                  <Img
-                    className="h-[22px] w-[22px]"
-                    src="images/img_svgexport6.svg"
-                    alt="svgexportSix"
-                  />
-                  <Text
-                    className="text-base text-white-A700 w-auto"
-                    size="txtOpenSansRomanRegular16"
-                  >
-                    Movies
-                  </Text>
-                </div>
-                <div className="flex flex-row gap-2 items-center justify-center w-auto">
-                  <Img
-                    className="h-[22px] w-[22px]"
-                    src="images/img_television.svg"
-                    alt="television"
-                  />
-                  <Text
-                    className="text-base text-white-A700 w-auto"
-                    size="txtOpenSansRomanRegular16"
-                  >
-                    TV Shows
-                  </Text>
-                </div>
-                <div className="flex flex-row gap-2 items-center justify-center w-auto">
-                  <Img
-                    className="h-6 w-6"
-                    src="images/img_search.svg"
-                    alt="search"
-                  />
-                  <Text
-                    className="text-base text-white-A700 w-auto"
-                    size="txtOpenSansRomanRegular16"
-                  >
-                    Creators
-                  </Text>
-                </div>
-              </div>
-            </div>
+        {/* <Header className="flex md:flex-col flex-row md:gap-5 items-center justify-center w-full" /> */}
+
+          <div className="font-poppins h-[700px] md:px-5 relative w-full">
             <Img
-              className="h-[21px] md:ml-[0] ml-[238px] md:mt-0 mt-[35px]"
-              src="images/img_search_white_a700.svg"
-              alt="search_One"
-            />
-            <Img
-              className="h-[27px] ml-8 md:ml-[0] md:mt-0 mt-8"
-              src="images/img_notification.svg"
-              alt="notification"
-            />
-            <Button
-              className="cursor-pointer flex items-center justify-center min-w-[125px] ml-8 md:ml-[0] md:mt-0 my-[18px]"
-              leftIcon={
-                <Img
-                  className="h-[22px] mt-px mr-2.5"
-                  src="images/img_bipersonfill.svg"
-                  alt="bi:person-fill"
-                />
-              }
-              shape="round"
-              color="purple_A100"
-              size="xs"
-              variant="fill"
-            >
-              <div className="font-bold text-base text-center">Profile</div>
-            </Button>
-          </div>
-          <div className="font-poppins h-[924px] md:px-5 relative w-full">
-            <Img
-              className="h-[924px] m-auto object-cover w-full"
+              className="h-[100%]  object-cover w-full"
               src="images/25.png"
               alt="lucifersOne"
             />

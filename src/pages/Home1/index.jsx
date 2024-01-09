@@ -20,14 +20,14 @@ const Home1Page = () => {
               src="images/40.png"
               alt="9021"
             />
-            <div className="absolute flex flex-col h-max inset-y-[0] items-start justify-start  left-[3%] my-auto w-[60%]">
+            <div className="absolute flex flex-col h-max inset-y-[0] items-start justify-start  left-[3%] my-auto w-[60%] sm:w-full">
               <Img
                 className="h-[169px] sm:h-auto object-cover w-[56%] md:w-full"
                 src="images/img_kokotv2.png"
                 alt="kokotvTwo"
               />
               <Text
-                className="mt-[17px] md:text-3xl sm:text-[28px] text-[32px] w-[60%] text-gray-100"
+                className="mt-[17px] md:text-3xl sm:text-[28px] text-[32px] w-[60%] sm:w-full text-gray-100"
                 size="txtOpenSansRomanBold32Gray100"
               >
                 <>Unlimited movies, TV shows, and more.</>
@@ -38,7 +38,7 @@ const Home1Page = () => {
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </Text>
-              <div className="flex sm:flex-col flex-row font-nunitosans gap-6 items-center justify-start mt-[29px] w-[67%] md:w-full">
+              <div className="flex sm:flex-col flex-row font-nunitosans gap-6 items-center sm:items-start justify-start mt-[29px] w-[67%] md:w-full">
                 <Button
                   className="common-pointer cursor-pointer font-extrabold leading-[normal] rounded-md text-center text-lg w-[196px]"
                   onClick={() => navigate("/movies")}
@@ -69,7 +69,7 @@ const Home1Page = () => {
               <div className="flex flex-col items-center justify-start w-full">
                 <div className="flex flex-col gap-[11px] items-center justify-start w-full">
                   <Text
-                    className="md:text-3xl sm:text-[28px] text-[32px] text-gray-100"
+                    className="md:text-3xl sm:text-[28px] text-[32px] text-gray-100 sm:text-center"
                     size="txtOpenSansRomanBold32Gray100"
                   >
                     UNLIMITED STREAMING
@@ -107,7 +107,7 @@ const Home1Page = () => {
                 <div className="flex flex-col items-center justify-start w-full">
                   <div className="flex flex-col gap-2.5 items-center justify-start w-full">
                     <Text
-                      className="md:text-3xl sm:text-[28px] text-[32px] text-gray-100"
+                      className="md:text-3xl sm:text-[28px] text-[32px] text-gray-100 sm:text-center"
                       size="txtOpenSansRomanBold32Gray100"
                     >
                       SUPPORT THE CREATORS
@@ -125,7 +125,7 @@ const Home1Page = () => {
             </div>
           </div>
           <Text
-            className="mt-8 md:text-3xl sm:text-[28px] text-[32px] text-gray-100"
+            className="mt-8 md:text-3xl sm:text-[28px] text-[32px] mt-[3em] text-gray-100"
             size="txtOpenSansRomanBold32Gray100"
           >
             Available on
@@ -282,7 +282,7 @@ const Home1Page = () => {
             className="sm:flex-col flex-row gap-8 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-4 justify-center w-full"
             orientation="horizontal"
           >
-            <div className="bg-white-A700 flex flex-1 flex-col items-center justify-start sm:ml-[0]  py-3 rounded-[20px] w-full">
+            <div className="bg-white-A700 flex flex-1 flex-col items-center justify-start   py-3 rounded-[20px] w-full md:p-[20px] sm:p-[10px]">
               <div className="flex flex-col justify-start my-3 w-full">
                 <div className="flex flex-row gap-2 items-center justify-start ml-1 md:ml-[0] w-3/4 md:w-full">
                   <Img
@@ -376,9 +376,10 @@ const Home1Page = () => {
                 </Button>
               </div>
             </div>
-            <div className="bg-white-A700 flex flex-1 flex-col items-center justify-start sm:ml-[0]  py-3 rounded-[20px] w-full">
+           
+            <div className="bg-white-A700 flex flex-1 flex-col items-center justify-start md:p-[20px] sm:p-[10px]  py-3 rounded-[20px] w-full">
               <div className="flex flex-col justify-start my-3 w-full">
-                <div className="flex flex-row gap-2 items-center justify-start ml-1 md:ml-[0] w-[65%] md:w-full">
+                <div className="flex flex-row gap-2 items-center justify-start ml-1 md:ml-[0] w-[69%] md:w-full">
                   <Img
                     className="h-10 w-10"
                     src="images/img_lightbulb.svg"
@@ -478,7 +479,7 @@ const Home1Page = () => {
                 </Button>
               </div>
             </div>
-            <div className="bg-white-A700 flex flex-1 flex-col items-center justify-start sm:ml-[0]  py-3 rounded-[20px] w-full">
+            <div className="bg-white-A700 flex flex-1 flex-col items-center justify-start md:p-[20px] sm:p-[10px]  py-3 rounded-[20px] w-full">
               <div className="flex flex-col justify-start my-3 w-full">
                 <div className="flex flex-row gap-2 items-center justify-start ml-1 md:ml-[0] w-[69%] md:w-full">
                   <Img
@@ -580,7 +581,7 @@ const Home1Page = () => {
                 </Button>
               </div>
             </div>
-            <div className="bg-white-A700 flex flex-1 flex-col items-center justify-start sm:ml-[0]  py-3 rounded-[20px] w-full">
+            <div className="bg-white-A700 flex flex-1 flex-col items-center justify-start md:p-[20px] sm:p-[10px]  py-3 rounded-[20px] w-full">
               <div className="flex flex-col justify-start my-3 w-full">
                 <div className="flex flex-row gap-2 items-center justify-start ml-1 md:ml-[0] w-[46%] md:w-full">
                   <Img

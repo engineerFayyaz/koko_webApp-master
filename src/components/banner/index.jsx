@@ -5,13 +5,13 @@ import { Button, Img, List, PagerIndicator, RatingBar, Text } from "components";
 
 const Banner = () => {
   return (
-    <div className="h-[530px] md:h-[529px]  md:px-5 relative w-full">
+    <div className="h-[650px] md:h-[529px]  md:px-5 relative w-full">
     <Img
       className="h-[100%] m-auto object-fill  w-full"
       src="images/6.png"
       alt="lucifersOne"
     />
-    <div className="absolute bottom-[0%] flex flex-col md:gap-10 top-[20%] justify-start left-[2%] w-[70%]">
+    <div className="absolute bottom-[10%] flex flex-col md:gap-10  justify-start left-[2%] w-[70%]">
       <div className="flex flex-col  justify-start w-full">
         <div className="flex flex-col  justify-start w-full">
           <Text

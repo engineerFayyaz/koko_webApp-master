@@ -7,6 +7,9 @@ body {
   margin: 0;
   padding: 0;
 }
+img{
+  cursor: pointer;
+}
 .dhiwise-code,
 .dhiwise-navigation {
   min-height: 100%;

@@ -17,6 +17,8 @@ const Header = (props) => {
           className="h-[100%] sm:h-auto object-cover w-[15%] md:w-full"
           src="images/img_kokotv2.png"
           alt="kokotvTwo"
+          onClick={() => handleLinkClick("/home1", 0)}
+
         />
         <ul className="flex sm:flex-col flex-row sm:hidden items-start justify-center md:ml-[0] ml-[20px]        md:mt-0 my-[27px] w-[40%] md:w-full common-row-list">
           <li>

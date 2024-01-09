@@ -7,22 +7,22 @@ const BusinessplanPage = () => {
   return (
     <>
       <div className="bg-gray-900 flex flex-col font-opensans items-center justify-start mx-auto p-1.5 shadow-bs w-full">
-        <div className="flex flex-col justify-start max-w-[1376px] mb-[266px] mx-auto md:px-5 w-full">
+        <div className="flex flex-col justify-start max-w-[1376px] mb-[20px] mx-auto md:px-5 w-full">
           <Header className="flex md:flex-col flex-row md:gap-5 items-center justify-center w-full" />
           <Text
-            className="md:ml-[0] ml-[512px] mt-[83px] md:text-3xl sm:text-[28px] text-[32px] text-white-A700"
+            className="md:ml-[0] text-center mt-10  md:text-3xl sm:text-[28px] text-[32px] text-white-A700"
             size="txtOpenSansRomanBold32WhiteA700"
           >
             Choose your Membership
           </Text>
-          <div className="flex flex-col gap-[23px] items-start justify-start md:ml-[0] ml-[721px] mt-[97px] w-[22%] md:w-full">
+          <div className="flex flex-col gap-[23px] items-start justify-start md:ml-[0] ml-[630px] mt-[80px]  md:w-full">
             <Text
               className="capitalize md:text-3xl sm:text-[28px] text-[32px] text-white-A700 tracking-[1.00px]"
               size="txtOpenSansRomanBold32WhiteA700"
             >
               Business Plan
             </Text>
-            <div className="flex flex-col items-center justify-start w-full">
+            <div className="flex flex-col  justify-start w-full">
               <Text
                 className="md:text-3xl sm:text-[28px] text-[32px] text-white-A700"
                 size="txtOpenSansRomanBold32WhiteA700"

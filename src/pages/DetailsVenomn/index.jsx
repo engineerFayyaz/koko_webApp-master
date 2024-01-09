@@ -4,152 +4,49 @@ import { useNavigate } from "react-router-dom";
 
 import { Button, Img, Line, RatingBar, Text } from "components";
 import Footer from "components/Footer";
-
+import Header from "components/Header";
 const DetailsVenomnPage = () => {
   const navigate = useNavigate();
 
   return (
     <>
-      <div className="bg-gray-900_01 flex flex-col font-opensans items-center justify-start mx-auto py-1.5 w-full">
-        <div className="flex flex-col gap-[18px] items-center justify-start mb-[199px] w-full">
-        <div className="absolute flex md:flex-col flex-row md:gap-10 items-center justify-between left-[2%] top-[0] w-[64%]">
-            <Img
-              className="h-[79px] md:h-auto object-cover"
-              src="images/img_kokotv2.png"
-              alt="kokotvTwo_One"
-            />
-            <div className="flex flex-row items-start justify-between w-[51%] md:w-full">
-              <div className="flex flex-row gap-2 items-center justify-center w-auto">
-                <Img
-                  className="h-[22px] w-[22px]"
-                  src="images/img_frame.svg"
-                  alt="frame"
-                />
-                <Text
-                className="text-base text-white-A700 w-auto"
-              
-                  size="txtOpenSansRomanBold16"
-                  onClick={() => navigate("/home1")}
-                >
-                  Home
-                </Text>
-              </div>
-              <div
-                className="common-pointer flex flex-row gap-2 items-center justify-center w-auto"
-                
-              >
-                <Img
-                  className="h-[22px] w-[22px]"
-                  src="images/img_svgexport6_purple_a100.svg"
-                  alt="svgexportSix"
-                />
-                <Text
-                   className="text-base text-purple-A100 w-auto"
-                  size="txtOpenSansRomanRegular16"
-                  onClick={() => navigate("/movies")}
-                >
-                  Movies
-                </Text>
-              </div>
-              <div
-                className="common-pointer flex flex-row gap-2 items-center justify-center w-auto"
-                onClick={() => navigate("/tvshow")}
-              >
-                <Img
-                  className="h-[22px] w-[22px]"
-                  src="images/img_television.svg"
-                  alt="television"
-                />
-                <Text
-                  className="text-base text-white-A700 w-auto"
-                  size="txtOpenSansRomanRegular16"
-                >
-                  TV Shows
-                </Text>
-              </div>
-              <div
-                className="common-pointer flex flex-row gap-2 items-center justify-center w-auto"
-                onClick={() => navigate("/creators")}
-              >
-                <Img
-                  className="h-6 w-6"
-                  src="images/img_search.svg"
-                  alt="search"
-                />
-                <Text
-                  className="text-base text-white-A700 w-auto"
-                  size="txtOpenSansRomanRegular16"
-                >
-                  Creators
-                </Text>
-              </div>
-            </div>
-          </div>
-
-      
-          <div className="absolute flex flex-row gap-8 items-center justify-between right-[1%] top-[2%] w-[17%]">
-            <Img
-              className="h-[18px] w-[18px]"
-              src="images/img_search_white_a700.svg"
-              alt="search_One"
-            />
-            <Img
-              className="common-pointer h-6 w-6"
-              src="images/img_ionnotifications.svg"
-              alt="ionnotification"
-              onClick={() => navigate("/notification")}
-            />
-            <Button
-              className="common-pointer cursor-pointer flex items-center justify-center min-w-[125px]"
-              // onClick={() => navigate("/homemenu")}
-              leftIcon={
-                <Img
-                  className="h-[22px] mt-px mr-2.5"
-                  src="images/img_bipersonfill.svg"
-                  alt="bi:person-fill"
-                />
-              }
-              shape="round"
-              color="purple_A100"
-              size="xs"
-              variant="fill"
-            >
-              <div className="font-bold text-base text-center">Profile</div>
-            </Button>
-          </div>
+      <div className="bg-gray-900_01 flex flex-col font-opensans items-center justify-start mx-auto  w-full">
+        <div className="flex flex-col gap-[18px] items-center justify-start  w-full">
+       
+        <Header className="flex md:flex-col flex-row md:gap-5 items-center justify-center w-full" />
 
 
           <div className="flex flex-col justify-start w-full">
-            <div className="font-opensans h-[924px] max-w-[2021px] md:h-[529px] mt-[90px] mx-auto md:px-5 relative w-full">
+          <div className="font-opensans h-[700px] max-w-[2021px] md:h-[529px]  mx-auto md:px-5 relative w-full">
               <Img
-                className="h-[924px] m-auto object-cover w-full"
+                className="h-[100%] m-auto  object-fill w-full "
                 src="images/25.png"
                 alt="lucifersOne"
               />
-              <div className="absolute bottom-[4%] flex flex-col gap-[17px] items-start justify-start left-[4%] w-[87%]">
+              <div className="absolute bottom-[10%] flex flex-col gap-[18px] items-start justify-start left-[4%] w-[57%]">
                 <Text
                   className="text-base text-gray-100 text-right"
                   size="txtOpenSansRomanBold16Gray100"
                 >
                   Netflix’s Original
                 </Text>
-                <div className="flex flex-col relative w-full">
+                <div className="md:h-[137px] h-[200px] relative w-full mt-[-20px]">
                   <Text
-                    className="mx-auto md:text-5xl text-[80px] text-gray-100 text-right"
-                    size="txtOpenSansRomanBold80"
+                    className="absolute inset-x-[0] mx-auto md:text-5xl text-[70px] text-gray-100  w-max"
+                    size="txtOpenSansRomanExtraBold100"
                   >
                     Venom 2: Let there be Carnage
                   </Text>
                   <Img
-                    className="h-10 ml-[321px] mt-[-NaNpx] z-[1]"
+                    className="absolute bottom-[10%] h-18 left-[40%]"
                     src="images/img_bookmark.svg"
                     alt="bookmark"
                   />
-                  <div className="flex flex-col font-poppins items-center justify-start mb-[21px] mt-[-2.18px] w-[22%] z-[1]">
+                  <div className="absolute bottom-[0%] flex flex-col font-poppins items-center justify-start left-[0] ">
                     <div className="flex flex-col justify-start w-full">
-                      <div className="flex flex-row gap-[38px] items-center justify-between ml-1.5 md:ml-[0] w-[98%] md:w-full">
+                      <div className="flex flex-row gap-[38px] items-center justify-between ml-1.5 md:ml-[0] w-[100%] md:w-full">
                         <Text
-                          className="text-gray-100 text-right text-xl"
+                          className="text-gray-100  text-lg"
                           size="txtPoppinsBold20"
                         >
                           <span className="text-gray-100 font-opensans font-normal">
@@ -160,7 +57,7 @@ const DetailsVenomnPage = () => {
                           </span>
                         </Text>
                         <Text
-                          className="text-gray-100 text-right text-xl"
+                          className="text-gray-100 text-right text-lg"
                           size="txtPoppinsRegular20Gray100"
                         >
                           <span className="text-gray-100 font-opensans font-normal">
@@ -171,7 +68,7 @@ const DetailsVenomnPage = () => {
                           </span>
                         </Text>
                       </div>
-                      <div className="flex flex-row gap-5 items-center justify-start w-[92%] md:w-full">
+                      <div className="flex flex-row gap-5 items-center justify-start w-[100%] md:w-full">
                         <div className="flex flex-row items-center justify-evenly w-[78%]">
                           <RatingBar
                             className="flex justify-between w-[190px]"
@@ -193,6 +90,7 @@ const DetailsVenomnPage = () => {
                 </div>
               </div>
             </div>
+
             <Text
               className="md:ml-[0] ml-[50px] mt-8 md:text-3xl sm:text-[28px] text-[32px] text-gray-100"
               size="txtOpenSansRomanBold32Gray100"
@@ -200,7 +98,7 @@ const DetailsVenomnPage = () => {
               Desciption
             </Text>
             <Text
-              className="md:ml-[0] ml-[50px] mt-5 text-gray-100 text-sm w-[93%] sm:w-full"
+              className="md:ml-[0] ml-[50px] mt-5 text-gray-100 text-sm w-[93%] sm:w-full text-justify"
               size="txtNunitoSansRegular14Gray100"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem
@@ -264,7 +162,7 @@ const DetailsVenomnPage = () => {
               consectetur adipiscing elit.Lorem ipsum dolor sit amet,
               consectetur adipiscing elit.{" "}
             </Text>
-            <div className="flex flex-col font-poppins gap-2.5 items-start justify-start md:ml-[0] ml-[50px] mt-[22px] md:px-5">
+            <div className="flex flex-col font-poppins gap-2.5 items-start justify-start md:ml-[0] ml-[50px] mt-[22px] md:px-5 w-[90%]">
               <Text
                 className="text-gray-100 text-xl"
                 size="txtPoppinsRegular20Gray100"
@@ -353,25 +251,25 @@ const DetailsVenomnPage = () => {
               Screenshots
             </Text>
             <div className="flex flex-col items-center justify-start mt-8 w-full">
-              <div className="flex flex-col items-center justify-start w-full">
-                <div className="flex sm:flex-col flex-row sm:gap-1 items-center justify-between w-full">
+              <div className="flex md:flex-col flex-row gap-5 items-center justify-between w-full">
+                <div className="md:flex-1  grid sm:grid-cols-1 md:grid-cols-2  grid-cols-4 items-center justify-between w-[100%] md:w-full">
                   <Img
-                    className="h-[250px] md:h-auto object-cover"
+                    className="h-[250px] md:h-auto w-full object-cover"
                     src="images/26.png"
                     alt="game1200"
                   />
                   <Img
-                    className="h-[250px] md:h-auto object-cover"
+                    className="h-[250px] md:h-auto w-full object-cover"
                     src="images/27.png"
                     alt="download"
                   />
                   <Img
-                    className="h-[250px] md:h-auto object-cover"
+                    className="h-[250px] md:h-auto w-full object-cover"
                     src="images/28.png"
                     alt="squidgameunit"
                   />
                   <Img
-                    className="h-[250px] md:h-auto object-cover"
+                    className="h-[250px] md:h-auto w-full object-cover"
                     src="images/29.png"
                     alt="squidgamemarble"
                   />
@@ -612,7 +510,7 @@ const DetailsVenomnPage = () => {
               </div>
             </div>
     
-            <div className="flex flex-col items-center justify-start w-full ml-2 md:ml-[0] mt-8 md:px-5">
+            <div className="flex flex-col items-center justify-start w-full  md:ml-[0] mt-8 md:px-5">
                   <div className="flex flex-col items-center justify-start w-full">
            
                     <div className="flex md:flex-col flex-row gap-5 items-center justify-between w-full">
@@ -664,6 +562,7 @@ const DetailsVenomnPage = () => {
                 </div>
           </div>
         </div>
+        <Footer />
       </div>
     </>
   );

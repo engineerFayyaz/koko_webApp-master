@@ -3,11 +3,11 @@ import React from "react";
 import { Img, Text } from "components";
 import { useNavigate } from "react-router-dom";
 
-const Footer = (props) => {
+const Footer = () => {
   const navigate = useNavigate();
   return (
     <>
-      <footer className={` ${props.className} w-[100%] pt-[3em]`}>
+      <footer className={` w-[100%] pt-[3em]`}>
         {/* <div className="flex flex-col gap-4 items-center justify-center w-full">
           <Text
             className="md:ml-[0] ml-[42px] mr-[1110px] md:text-3xl sm:text-[28px] text-[32px] text-gray-100"
@@ -69,7 +69,7 @@ const Footer = (props) => {
           >
             Contact Details
           </Text>
-          <div className="flex md:flex-col flex-row md:gap-10 gap-[8em]  items-start justify-start w-full p-[4em] md-p-0" >
+          <div className="flex md:flex-col flex-row md:gap-10 gap-[8em]  items-start justify-start w-full p-[4em] md:px-0 sm:px-0" >
             <div className="flex md:flex-1 flex-col  justify-start w-[45%] md:w-full">
               <div className="flex flex-col  justify-start w-full">
                 <div className="flex flex-col gap-[11px]  justify-start w-full">
@@ -184,6 +184,6 @@ const Footer = (props) => {
   );
 };
 
-Footer.defaultProps = {};
+
 
 export default Footer;
