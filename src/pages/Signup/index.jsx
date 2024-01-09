@@ -116,7 +116,7 @@ const SignUpPage = () => {
                   </div>
                   <div className="flex flex-col items-start justify-start w-auto sm:w-full">
                     <CheckBox
-                      className="leading-[normal] text-left text-xs"
+                      className="leading-[normal] text-left text-xs text-white-A700 "
                       inputClassName="border-2 border-purple-A100 border-solid h-3 mr-[5px] w-3"
                       name="rememberme"
                       id="rememberme"
@@ -142,7 +142,7 @@ const SignUpPage = () => {
                   </div>
                   <div className="flex flex-col items-start justify-start w-auto sm:w-full">
                     <CheckBox
-                      className="leading-[normal] text-left text-xs"
+                      className="leading-[normal] text-left text-xs text-white-A700"
                       inputClassName="border-2 border-purple-A100 border-solid h-3 mr-[5px] w-3"
                       name="iagreetorecieve_One"
                       id="iagreetorecieve_One"

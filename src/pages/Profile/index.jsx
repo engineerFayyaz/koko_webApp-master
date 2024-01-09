@@ -6,7 +6,7 @@ const ProfilePage = () => {
   return (
     <>
       <div className="bg-gray-900 flex flex-col font-opensans items-center justify-start mx-auto p-1.5 shadow-bs w-full">
-        <div className="flex flex-col items-center justify-start max-w-[1384px] mb-[326px] mx-auto md:px-5 w-full">
+        <div className="flex flex-col items-center justify-start max-w-[1384px] mb-[50px] mx-auto md:px-5 w-full">
         <Header className="flex md:flex-col flex-row md:gap-5 items-center justify-center w-full" />
         
           <div className="flex flex-col items-center justify-start mt-[55px]">
@@ -17,13 +17,13 @@ const ProfilePage = () => {
               Profile
             </Text>
           </div>
-          <div className="flex md:flex-col flex-row md:gap-5 items-center justify-start mt-[126px] w-[88%] md:w-full">
+          <div className="flex md:flex-col flex-row md:gap-5 items-center justify-around mt-[90px] w-[90%] md:w-full">
             <Img
               className="h-[361px] md:h-auto md:mt-0 mt-5 rounded-[50%] w-[361px]"
-              src="images/img_photo153207420.png"
+              src="images/profile.png"
               alt="photo153207420"
             />
-            <div className="flex flex-col items-start justify-start md:ml-[0] ml-[156px]">
+            <div className="flex flex-col items-start ml-[4em] justify-start md:ml-[0] ">
               <Text
                 className="sm:text-[40px] md:text-[46px] text-[50px] text-gray-100"
                 size="txtOpenSansRomanExtraBold50"

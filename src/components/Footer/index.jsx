@@ -7,7 +7,8 @@ const Footer = () => {
   const navigate = useNavigate();
   return (
     <>
-      <footer className={` w-[100%] pt-[3em]`}>
+    {/* style={{background:"linear-gradient(90deg, rgba(175,0,255,1) 0%, rgba(122,41,193,1) 40%, rgba(21,22,28,1) 97%)"}} */}
+      <footer className={` w-full pt-[3em] pb-[20px] bg-gray-900`} >
         {/* <div className="flex flex-col gap-4 items-center justify-center w-full">
           <Text
             className="md:ml-[0] ml-[42px] mr-[1110px] md:text-3xl sm:text-[28px] text-[32px] text-gray-100"

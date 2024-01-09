@@ -684,9 +684,9 @@ const Home1Page = () => {
               </div>
             </div>
           </List>
-        <Footer />
         </div>
       </div>
+        <Footer />
     </>
   );
 };

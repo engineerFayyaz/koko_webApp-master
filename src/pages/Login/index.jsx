@@ -97,7 +97,7 @@ const LoginPage = () => {
                     </div>
                     <div className="flex flex-row gap-[222px] items-start justify-between w-auto sm:w-full">
                       <CheckBox
-                        className="font-nunitosans leading-[normal] text-left text-xs"
+                        className="font-nunitosans leading-[normal] text-left w-full text-white-A700 text-xs"
                         inputClassName="border-2 border-purple-A100 border-solid h-3 mr-[5px] w-3"
                         name="rememberme"
                         id="rememberme"
@@ -105,7 +105,7 @@ const LoginPage = () => {
                       ></CheckBox>
                       <a
                         href="javascript:"
-                        className="text-purple-A100 text-xs w-auto"
+                        className="text-purple-A100 text-xs w-full"
                       >
                         <Text size="txtOpenSansRomanSemiBold12">
                           Forgot Password?
