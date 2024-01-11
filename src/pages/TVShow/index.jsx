@@ -32,7 +32,7 @@ const MoviesPage = () => {
 
               <div className="flex flex-1 flex-col gap-[37px] justify-start my-0 w-full">
                 <Text
-                  className="md:ml-[0] ml-[10px] text-[40px] text-base text-gray-100"
+                  className="md:ml-[0] ml-[20px] text-[20px] text-base text-gray-100"
                   size="txtOpenSansRomanBold16Gray100"
                 >
                   Popular
@@ -91,7 +91,7 @@ const MoviesPage = () => {
             </List>
             <div className="flex flex-col gap-[37px] justify-start mt-[50px] w-full">
               <Text
-                className="md:ml-[0] ml-[10px] text-[40px] text-base text-gray-100"
+                className="md:ml-[0] ml-[20px] text-[20px] text-base text-gray-100"
                 size="txtOpenSansRomanBold16Gray100"
               >
                 Top 10 in USA
@@ -153,7 +153,7 @@ const MoviesPage = () => {
             >
               <div className="flex flex-1 flex-col gap-[39px] justify-start w-full">
                 <Text
-                  className="md:ml-[0] ml-[10px] text-[40px] text-base text-gray-100"
+                  className="md:ml-[0] ml-[20px] text-[20px] text-base text-gray-100"
                   size="txtOpenSansRomanBold16Gray100"
                 >
                   Action/Adventure
@@ -211,7 +211,7 @@ const MoviesPage = () => {
               </div>
               <div className="flex flex-1 flex-col gap-[39px] justify-start w-full">
                 <Text
-                  className="md:ml-[0] ml-[10px] text-[40px] text-base text-gray-100"
+                  className="md:ml-[0] ml-[20px] text-[20px] text-base text-gray-100"
                   size="txtOpenSansRomanBold16Gray100"
                 >
                   Animations
@@ -269,7 +269,7 @@ const MoviesPage = () => {
               </div>
               <div className="flex flex-1 flex-col gap-[37px] justify-start w-full">
                 <Text
-                  className="md:ml-[0] ml-[10px] text-[40px] text-base text-gray-100"
+                  className="md:ml-[0] ml-[20px] text-[20px] text-base text-gray-100"
                   size="txtOpenSansRomanBold16Gray100"
                 >
                   Comedy
@@ -327,7 +327,7 @@ const MoviesPage = () => {
               </div>
               <div className="flex flex-1 flex-col gap-9 justify-start w-full">
                 <Text
-                  className="md:ml-[0] ml-[10px] text-[40px] text-base text-gray-100"
+                  className="md:ml-[0] ml-[20px] text-[20px] text-base text-gray-100"
                   size="txtOpenSansRomanBold16Gray100"
                 >
                   Documentary
@@ -385,7 +385,7 @@ const MoviesPage = () => {
               </div>
               <div className="flex flex-1 flex-col gap-[38px] justify-start w-full">
                 <Text
-                  className="md:ml-[0] ml-[10px] text-[40px] text-base text-gray-100"
+                  className="md:ml-[0] ml-[20px] text-[20px] text-base text-gray-100"
                   size="txtOpenSansRomanBold16Gray100"
                 >
                   Drama
@@ -443,7 +443,7 @@ const MoviesPage = () => {
               </div>
               <div className="flex flex-1 flex-col gap-[38px] justify-start w-full">
                 <Text
-                  className="md:ml-[0] ml-[10px] text-[40px] text-base text-gray-100"
+                  className="md:ml-[0] ml-[20px] text-[20px] text-base text-gray-100"
                   size="txtOpenSansRomanBold16Gray100"
                 >
                   Horror
@@ -501,7 +501,7 @@ const MoviesPage = () => {
               </div>
               <div className="flex flex-1 flex-col gap-[39px] justify-start w-full">
                 <Text
-                  className="md:ml-[0] ml-[10px] text-[40px] text-base text-gray-100"
+                  className="md:ml-[0] ml-[20px] text-[20px] text-base text-gray-100"
                   size="txtOpenSansRomanBold16Gray100"
                 >
                   Music
@@ -559,7 +559,7 @@ const MoviesPage = () => {
               </div>
               <div className="flex flex-1 flex-col gap-[39px] justify-start w-full">
                 <Text
-                  className="md:ml-[0] ml-[10px] text-[40px] text-base text-gray-100"
+                  className="md:ml-[0] ml-[20px] text-[20px] text-base text-gray-100"
                   size="txtOpenSansRomanBold16Gray100"
                 >
                   Romantic
@@ -617,7 +617,7 @@ const MoviesPage = () => {
               </div>
               <div className="flex flex-1 flex-col gap-[37px] justify-start w-full">
                 <Text
-                  className="md:ml-[0] ml-[10px] text-[40px] text-base text-gray-100"
+                  className="md:ml-[0] ml-[20px] text-[20px] text-base text-gray-100"
                   size="txtOpenSansRomanBold16Gray100"
                 >
                   Science Fiction/Fantasy
@@ -675,7 +675,7 @@ const MoviesPage = () => {
               </div>
                 <div className="flex flex-col gap-9  w-full">
                   <Text
-                    className="md:ml-[0] ml-[10px] text-[40px]  text-base text-gray-100"
+                    className="md:ml-[0] ml-[20px] text-[20px]  text-base text-gray-100"
                     size="txtOpenSansRomanBold16Gray100"
                   >
                     Sports

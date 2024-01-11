@@ -5,13 +5,13 @@ import { Button, Img, List, PagerIndicator, RatingBar, Text } from "components";
 
 const Banner = () => {
   return (
-    <div className="h-[650px] md:h-[529px]  md:px-5 relative w-full">
+    <div className="h-[650px] md:h-[529px]  md:px-5 sm:px-0 relative w-full">
     <Img
-      className="h-[100%] m-auto object-fill  w-full"
+      className="h-[100%] m-auto object-fill  w-full sm:rounded-[50px]"
       src="images/6.png"
       alt="lucifersOne"
     />
-    <div className="absolute bottom-[10%] flex flex-col md:gap-10  justify-start left-[2%] w-[70%]">
+    <div className="absolute bottom-[10%] flex flex-col md:gap-10  justify-start left-[2%] w-[70%] sm:w-[90%]">
       <div className="flex flex-col  justify-start w-full">
         <div className="flex flex-col  justify-start w-full">
           <Text
@@ -21,12 +21,12 @@ const Banner = () => {
             Marvel’s
           </Text>
           <Text
-            className="mr-[18px] mt-2 sm:text-[40px] md:text-[46px] text-[40px] text-gray-100"
+            className="mr-[18px] mt-2 sm:mt-0 sm:text-[27px] md:text-[46px] text-[40px]  text-gray-100"
             size="txtOpenSansRomanExtraBold50"
           >
             Venom 2: Let There be Carnage
           </Text>
-          <div className="flex flex-row gap-[53px] items-start  w-[50%] md:w-full">
+          <div className="flex flex-row gap-[53px] sm:gap-[30px] sm:mt-[0em] items-start  w-[50%] md:w-full">
             <Text
               className="text-base text-gray-100 text-right"
               size="txtOpenSansRomanBold16Gray100"
@@ -40,8 +40,8 @@ const Banner = () => {
               Runtime: 1 hr, 37 min
             </Text>
           </div>
-          <div className="flex flex-row font-poppins gap-5 items-center  mt-[17px] w-[35%] md:w-full">
-            <div className="flex flex-row items-center justify-evenly w-[60%]">
+          <div className="flex flex-row font-poppins gap-5 items-center sm:gap-2  mt-[17px] sm:mt-[0px] w-[35%] md:w-full">
+            <div className="flex flex-row items-center justify-evenly sm:justify-between w-[60%] sm:w-[auto]">
               <RatingBar
                 className="flex justify-between w-[190px]"
                 value={5}
@@ -58,8 +58,8 @@ const Banner = () => {
             </Text>
           </div>
           <Text
-            className="mt-2.5 text-gray-100 text-lg w-[80%] text-justify sm:w-full"
-            size="txtOpenSansRomanRegular20"
+            className="mt-0 text-gray-100 text-lg w-[80%] text-justify sm:w-full sm:text-[14px] sm:leading-4"
+            size="txtOpenSansRomanRegular20 "
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing
             elit.Lorem ipsum dolor sit amet, consectetur adipiscing

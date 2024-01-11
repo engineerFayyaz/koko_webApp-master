@@ -11,7 +11,7 @@ return (
     <section>
     <div className="flex flex-1 flex-col gap-[37px] justify-start my-0 w-full">
                 <Text
-                  className="md:ml-[0] ml-[10px] text-[40px] text-base text-gray-100"
+                  className="md:ml-[0] ml-[20px] text-[20px] text-base text-gray-100"
                   size="txtOpenSansRomanBold16Gray100"
                 >
                   Trending
