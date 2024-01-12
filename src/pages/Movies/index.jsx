@@ -14,7 +14,7 @@ const MoviesPage = () => {
       <div className="bg-gray-900 flex flex-col font-opensans items-center justify-start mx-auto py-1.5 shadow-bs w-full">
         <div className="flex flex-col items-center justify-start mb-[15px] w-full">
 
-        <Header className="flex md:flex-col flex-row md:gap-5 items-center justify-center w-full" />
+        <Header />
 
 
         <Banner />
@@ -844,9 +844,43 @@ const MoviesPage = () => {
                 </div>
 
             </List>
-           <Footer  />
+           {/* <Footer  /> */}
           </div>
         </div>
+        
+        <div className="flex sm:flex-col flex-row font-opensans gap-8 items-start justify-start md:w-full md:mt-[2em] pl-[4em] md:p-0 text-left w-full my-5">
+            <a className="text-base text-white-A700">
+              <Text
+                className="common-pointer"
+                size="txtOpenSansRomanRegular16"
+                onClick={() => navigate("/privacy")}
+              >
+                Privacy Policy
+              </Text>
+            </a>
+            <Text
+              className="common-pointer text-base text-white-A700"
+              size="txtOpenSansRomanRegular16"
+              onClick={() => navigate("/disclaimer")}
+            >
+              Disclaimer
+            </Text>
+            <a className="text-base text-white-A700">
+              <Text
+                className="common-pointer"
+                size="txtOpenSansRomanRegular16"
+                onClick={() => navigate("/termsconditions")}
+              >
+                Terms and Conditions
+              </Text>
+            </a>
+            <Text
+              className="text-base text-white-A700"
+              size="txtOpenSansRomanRegular16"
+            >
+              Terms of Use
+            </Text>
+          </div>
       </div>
     </>
   );

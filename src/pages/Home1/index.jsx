@@ -12,7 +12,7 @@ const Home1Page = () => {
     <>
       <div className="bg-gray-900 flex flex-col font-opensans items-center justify-start mx-auto pr-1 py-1 shadow-bs w-full">
         <div className="md:h-[700px] h-[825px] md:px-5 relative w-full">
-        <Header className="flex md:flex-col flex-row md:gap-5 items-center justify-center w-full" />
+        <Header  />
 
           <div className="absolute bottom-[0] h-[735px] inset-x-[0] mx-auto w-full">
             <Img
@@ -20,23 +20,23 @@ const Home1Page = () => {
               src="images/40.png"
               alt="9021"
             />
-            <div className="absolute flex flex-col h-max inset-y-[0] items-start justify-start  left-[3%] my-auto w-[60%] sm:w-full">
+            <div className="absolute flex flex-col h-max inset-y-[0] items-start justify-start  left-[3%] my-auto w-[70%] sm:w-full">
               <Img
                 className="h-[169px] sm:h-auto object-cover w-[56%] md:w-full"
                 src="images/img_kokotv2.png"
                 alt="kokotvTwo"
               />
               <Text
-                className="mt-[17px] md:text-3xl sm:text-[28px] text-[32px] w-[60%] sm:w-full text-gray-100"
+                className="mt-[17px] md:text-3xl sm:text-[28px] text-[32px] w-[100%] sm:w-full text-gray-100"
                 size="txtOpenSansRomanBold32Gray100"
               >
-                <>Unlimited movies, TV shows, and more.</>
+                <>Binge on Premium content from Africa: Best in Nollywood, reality shows, sports, and a whole lot more.</>
               </Text>
               <Text
                 className="mt-3.5 text-base text-gray-100"
                 size="txtOpenSansRomanRegular16Gray100"
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Tune in anywhere on the Globe.
               </Text>
               <div className="flex sm:flex-col flex-row font-nunitosans gap-6 items-center sm:items-start justify-start mt-[29px] w-[67%] md:w-full">
                 <Button

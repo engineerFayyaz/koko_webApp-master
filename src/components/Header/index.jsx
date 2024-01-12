@@ -12,7 +12,7 @@ const Header = (props) => {
   };
   return (
     <>
-      <header className={`${props.className} justify-between px-[30px]`}>
+      <header className={`${props.className} justify-between px-[30px] flex md:flex-col flex-row md:gap-5 items-center justify-center w-full`} >
         <Img
           className="h-[100%] sm:h-auto object-cover w-[15%] md:w-full"
           src="images/img_kokotv2.png"

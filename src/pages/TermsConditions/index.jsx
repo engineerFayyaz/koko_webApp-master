@@ -8,7 +8,7 @@ const TermsConditionsPage = () => {
     <>
       <div className="bg-gray-900 flex flex-col items-center justify-start mx-auto p-1.5 shadow-bs w-full">
         <div className="flex flex-col items-center justify-start max-w-[1384px] mb-[51px] mx-auto md:px-5 w-full">
-        <Header className="flex md:flex-col flex-row md:gap-5 items-center justify-center w-full" />
+        <Header />
 
           <div className="flex flex-col font-opensans items-center justify-start mt-14">
             <Text

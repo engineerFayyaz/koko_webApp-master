@@ -12,12 +12,10 @@ const DetailsVenomnPage = () => {
     <>
       <div className="bg-gray-900_01 flex flex-col font-opensans items-center justify-start mx-auto  w-full">
         <div className="flex flex-col gap-[18px] items-center justify-start  w-full">
-       
-        <Header className="flex md:flex-col flex-row md:gap-5 items-center justify-center w-full" />
-
+          <Header className="flex md:flex-col flex-row md:gap-5 items-center justify-center w-full" />
 
           <div className="flex flex-col justify-start w-full">
-          <div className="font-opensans h-[700px] max-w-[2021px] md:h-[529px]  mx-auto md:px-5 relative w-full">
+            <div className="font-opensans h-[700px] max-w-[2021px] md:h-[529px]  mx-auto md:px-5 relative w-full">
               <Img
                 className="h-[100%] m-auto  object-fill w-full "
                 src="images/25.png"
@@ -32,17 +30,17 @@ const DetailsVenomnPage = () => {
                 </Text>
                 <div className="md:h-[137px] h-[200px] relative w-full mt-[-20px]">
                   <Text
-                    className="absolute inset-x-[0] mx-auto md:text-5xl text-[70px] text-gray-100  w-max"
+                    className="absolute inset-x-[0] mx-auto md:text-5xl text-[60px] text-gray-100  w-max"
                     size="txtOpenSansRomanExtraBold100"
                   >
                     Venom 2: Let there be Carnage
                   </Text>
                   <Img
-                    className="absolute bottom-[10%] h-18 left-[40%]"
+                    className="absolute bottom-[18%] h-18 left-[40%]"
                     src="images/img_bookmark.svg"
                     alt="bookmark"
                   />
-                  <div className="absolute bottom-[0%] flex flex-col font-poppins items-center justify-start left-[0] ">
+                  <div className="absolute bottom-[8%] flex flex-col font-poppins items-center justify-start left-[0] ">
                     <div className="flex flex-col justify-start w-full">
                       <div className="flex flex-row gap-[38px] items-center justify-between ml-1.5 md:ml-[0] w-[100%] md:w-full">
                         <Text
@@ -307,9 +305,8 @@ const DetailsVenomnPage = () => {
                         size="txtPoppinsRegular20Gray100"
                       >
                         <span className="text-gray-100 font-opensans text-left font-normal">
-                        Venom 2: Let there be Carnage: 480
+                          Venom 2: Let there be Carnage: 480
                         </span>
-                      
                       </Text>
                       <div className="h-10 relative w-[9%]">
                         <div className="flex flex-row font-roboto gap-5 h-full items-center justify-between m-auto w-[97%]">
@@ -322,7 +319,6 @@ const DetailsVenomnPage = () => {
                           <Text
                             className="text-white-A700 text-xl"
                             size="txtRobotoBold20"
-
                           >
                             Play
                           </Text>
@@ -337,27 +333,25 @@ const DetailsVenomnPage = () => {
                           size="txtPoppinsRegular20Gray100"
                         >
                           <span className="text-gray-100 font-opensans text-left font-normal">
-                          Venom 2: Let there be Carnage: 480
+                            Venom 2: Let there be Carnage: 480
                           </span>
-                         
                         </Text>
                         <div className="h-10 relative w-[9%]">
-                        <div className="flex flex-row font-roboto gap-5 h-full items-center justify-between m-auto w-[97%]">
-                          <Img
-                            className="h-10 rounded-sm w-60"
-                            src="images/img_play.svg"
-                            alt="play"
-                            onClick={() => navigate("/player")}
-                          />
-                          <Text
-                            className="text-white-A700 text-xl"
-                            size="txtRobotoBold20"
-
-                          >
-                            Play
-                          </Text>
+                          <div className="flex flex-row font-roboto gap-5 h-full items-center justify-between m-auto w-[97%]">
+                            <Img
+                              className="h-10 rounded-sm w-60"
+                              src="images/img_play.svg"
+                              alt="play"
+                              onClick={() => navigate("/player")}
+                            />
+                            <Text
+                              className="text-white-A700 text-xl"
+                              size="txtRobotoBold20"
+                            >
+                              Play
+                            </Text>
+                          </div>
                         </div>
-                      </div>
                       </div>
                       <Line className="bg-purple-A100 h-0.5 w-full" />
                       <div className="flex flex-row md:gap-10 items-center justify-between w-[93%] md:w-full">
@@ -366,27 +360,25 @@ const DetailsVenomnPage = () => {
                           size="txtPoppinsRegular20Gray100"
                         >
                           <span className="text-gray-100 font-opensans text-left font-normal">
-                          Venom 2: Let there be Carnage: 480
+                            Venom 2: Let there be Carnage: 480
                           </span>
-                         
                         </Text>
                         <div className="h-10 relative w-[9%]">
-                        <div className="flex flex-row font-roboto gap-5 h-full items-center justify-between m-auto w-[97%]">
-                          <Img
-                            className="h-10 rounded-sm w-60"
-                            src="images/img_play.svg"
-                            alt="play"
-                            onClick={() => navigate("/player")}
-                          />
-                          <Text
-                            className="text-white-A700 text-xl"
-                            size="txtRobotoBold20"
-
-                          >
-                            Play
-                          </Text>
+                          <div className="flex flex-row font-roboto gap-5 h-full items-center justify-between m-auto w-[97%]">
+                            <Img
+                              className="h-10 rounded-sm w-60"
+                              src="images/img_play.svg"
+                              alt="play"
+                              onClick={() => navigate("/player")}
+                            />
+                            <Text
+                              className="text-white-A700 text-xl"
+                              size="txtRobotoBold20"
+                            >
+                              Play
+                            </Text>
+                          </div>
                         </div>
-                      </div>
                       </div>
                       <Line className="bg-purple-A100 h-0.5 w-full" />
                       <div className="flex flex-row md:gap-10 items-center justify-between w-[93%] md:w-full">
@@ -395,27 +387,25 @@ const DetailsVenomnPage = () => {
                           size="txtPoppinsRegular20Gray100"
                         >
                           <span className="text-gray-100 font-opensans text-left font-normal">
-                          Venom 2: Let there be Carnage: 480
+                            Venom 2: Let there be Carnage: 480
                           </span>
-                          
                         </Text>
                         <div className="h-10 relative w-[9%]">
-                        <div className="flex flex-row font-roboto gap-5 h-full items-center justify-between m-auto w-[97%]">
-                          <Img
-                            className="h-10 rounded-sm w-60"
-                            src="images/img_play.svg"
-                            alt="play"
-                            onClick={() => navigate("/player")}
-                          />
-                          <Text
-                            className="text-white-A700 text-xl"
-                            size="txtRobotoBold20"
-
-                          >
-                            Play
-                          </Text>
+                          <div className="flex flex-row font-roboto gap-5 h-full items-center justify-between m-auto w-[97%]">
+                            <Img
+                              className="h-10 rounded-sm w-60"
+                              src="images/img_play.svg"
+                              alt="play"
+                              onClick={() => navigate("/player")}
+                            />
+                            <Text
+                              className="text-white-A700 text-xl"
+                              size="txtRobotoBold20"
+                            >
+                              Play
+                            </Text>
+                          </div>
                         </div>
-                      </div>
                       </div>
                       <Line className="bg-purple-A100 h-0.5 w-full" />
                       <div className="flex flex-row md:gap-10 items-center justify-between w-[93%] md:w-full">
@@ -424,27 +414,25 @@ const DetailsVenomnPage = () => {
                           size="txtPoppinsRegular20Gray100"
                         >
                           <span className="text-gray-100 font-opensans text-left font-normal">
-                          Venom 2: Let there be Carnage: 480
+                            Venom 2: Let there be Carnage: 480
                           </span>
-                 
                         </Text>
                         <div className="h-10 relative w-[9%]">
-                        <div className="flex flex-row font-roboto gap-5 h-full items-center justify-between m-auto w-[97%]">
-                          <Img
-                            className="h-10 rounded-sm w-60"
-                            src="images/img_play.svg"
-                            alt="play"
-                            onClick={() => navigate("/player")}
-                          />
-                          <Text
-                            className="text-white-A700 text-xl"
-                            size="txtRobotoBold20"
-
-                          >
-                            Play
-                          </Text>
+                          <div className="flex flex-row font-roboto gap-5 h-full items-center justify-between m-auto w-[97%]">
+                            <Img
+                              className="h-10 rounded-sm w-60"
+                              src="images/img_play.svg"
+                              alt="play"
+                              onClick={() => navigate("/player")}
+                            />
+                            <Text
+                              className="text-white-A700 text-xl"
+                              size="txtRobotoBold20"
+                            >
+                              Play
+                            </Text>
+                          </div>
                         </div>
-                      </div>
                       </div>
                       <Line className="bg-purple-A100 h-0.5 w-full" />
                       <div className="flex flex-row md:gap-10 items-center justify-between w-[93%] md:w-full">
@@ -453,27 +441,25 @@ const DetailsVenomnPage = () => {
                           size="txtPoppinsRegular20Gray100"
                         >
                           <span className="text-gray-100 font-opensans text-left font-normal">
-                          Venom 2: Let there be Carnage: 480
+                            Venom 2: Let there be Carnage: 480
                           </span>
-                       
                         </Text>
                         <div className="h-10 relative w-[9%]">
-                        <div className="flex flex-row font-roboto gap-5 h-full items-center justify-between m-auto w-[97%]">
-                          <Img
-                            className="h-10 rounded-sm w-60"
-                            src="images/img_play.svg"
-                            alt="play"
-                            onClick={() => navigate("/player")}
-                          />
-                          <Text
-                            className="text-white-A700 text-xl"
-                            size="txtRobotoBold20"
-
-                          >
-                            Play
-                          </Text>
+                          <div className="flex flex-row font-roboto gap-5 h-full items-center justify-between m-auto w-[97%]">
+                            <Img
+                              className="h-10 rounded-sm w-60"
+                              src="images/img_play.svg"
+                              alt="play"
+                              onClick={() => navigate("/player")}
+                            />
+                            <Text
+                              className="text-white-A700 text-xl"
+                              size="txtRobotoBold20"
+                            >
+                              Play
+                            </Text>
+                          </div>
                         </div>
-                      </div>
                       </div>
                       <Line className="bg-purple-A100 h-0.5 w-full" />
                       <div className="flex flex-row md:gap-10 items-center justify-between w-[93%] md:w-full">
@@ -482,84 +468,81 @@ const DetailsVenomnPage = () => {
                           size="txtPoppinsRegular20Gray100"
                         >
                           <span className="text-gray-100 font-opensans text-left font-normal">
-                          Venom 2: Let there be Carnage: 480
+                            Venom 2: Let there be Carnage: 480
                           </span>
-                          
                         </Text>
                         <div className="h-10 relative w-[9%]">
-                        <div className="flex flex-row font-roboto gap-5 h-full items-center justify-between m-auto w-[97%]">
-                          <Img
-                            className="h-10 rounded-sm w-60"
-                            src="images/img_play.svg"
-                            alt="play"
-                            onClick={() => navigate("/player")}
-                          />
-                          <Text
-                            className="text-white-A700 text-xl"
-                            size="txtRobotoBold20"
-
-                          >
-                            Play
-                          </Text>
+                          <div className="flex flex-row font-roboto gap-5 h-full items-center justify-between m-auto w-[97%]">
+                            <Img
+                              className="h-10 rounded-sm w-60"
+                              src="images/img_play.svg"
+                              alt="play"
+                              onClick={() => navigate("/player")}
+                            />
+                            <Text
+                              className="text-white-A700 text-xl"
+                              size="txtRobotoBold20"
+                            >
+                              Play
+                            </Text>
+                          </div>
                         </div>
-                      </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-    
+
             <div className="flex flex-col items-center justify-start w-full  md:ml-[0] mt-8 md:px-5">
-                  <div className="flex flex-col items-center justify-start w-full">
-           
-                    <div className="flex md:flex-col flex-row gap-5 items-center justify-between w-full">
-                      <div className="md:flex-1 gap-5 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 items-center justify-between w-[47%] md:w-full">
-                        <Img
-                          className="h-[300px] md:h-auto object-cover w-full"
-                          src="images/8.png"
-                          alt="faj2uifuuaul6u"
-                          onClick={() => navigate("/detailsone")}
-                        />
-                        <Img
-                          className="h-[300px] md:h-auto object-cover w-full"
-                          src="images/9.png"
-                          alt="mv5bntfinzblyme"
-                          onClick={() => navigate("/detailsvenomn")}
-                        />
-                        <Img
-                          className="h-[300px] md:h-auto object-cover w-full"
-                          src="images/10.png"
-                          alt="yae6uvqijdn411"
-                        />
-                      </div>
-                      <div className="md:flex-1 gap-5 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 items-center justify-center w-[47%] md:w-full">
-                        <Img
-                          className="h-[300px] md:h-auto object-cover w-full"
-                          src="images/4.png"
-                          alt="faj2uifuuaul6u_One"
-                        />
-                        <Img
-                          className="h-[300px] md:h-auto object-cover w-full"
-                          src="images/11.png"
-                          alt="mv5bntfinzblyme_One"
-                        />
-                        <Img
-                          className="h-[300px] md:h-auto object-cover w-full"
-                          src="images/12.png"
-                          alt="yae6uvqijdn411_One"
-                        />
-                      </div>
-                      <div className="flex md:flex-1 flex-col items-center justify-start w-[4%] md:w-full">
-                        <Img
-                          className="h-[300px] md:h-auto object-cover w-full"
-                          src="images/8.png"
-                          alt="faj2uifuuaul6u_Two"
-                        />
-                      </div>
-                    </div>
+              <div className="flex flex-col items-center justify-start w-full">
+                <div className="flex md:flex-col flex-row gap-5 items-center justify-between w-full">
+                  <div className="md:flex-1 gap-5 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 items-center justify-between w-[47%] md:w-full">
+                    <Img
+                      className="h-[300px] md:h-auto object-cover w-full"
+                      src="images/8.png"
+                      alt="faj2uifuuaul6u"
+                      onClick={() => navigate("/detailsone")}
+                    />
+                    <Img
+                      className="h-[300px] md:h-auto object-cover w-full"
+                      src="images/9.png"
+                      alt="mv5bntfinzblyme"
+                      onClick={() => navigate("/detailsvenomn")}
+                    />
+                    <Img
+                      className="h-[300px] md:h-auto object-cover w-full"
+                      src="images/10.png"
+                      alt="yae6uvqijdn411"
+                    />
+                  </div>
+                  <div className="md:flex-1 gap-5 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 items-center justify-center w-[47%] md:w-full">
+                    <Img
+                      className="h-[300px] md:h-auto object-cover w-full"
+                      src="images/4.png"
+                      alt="faj2uifuuaul6u_One"
+                    />
+                    <Img
+                      className="h-[300px] md:h-auto object-cover w-full"
+                      src="images/11.png"
+                      alt="mv5bntfinzblyme_One"
+                    />
+                    <Img
+                      className="h-[300px] md:h-auto object-cover w-full"
+                      src="images/12.png"
+                      alt="yae6uvqijdn411_One"
+                    />
+                  </div>
+                  <div className="flex md:flex-1 flex-col items-center justify-start w-[4%] md:w-full">
+                    <Img
+                      className="h-[300px] md:h-auto object-cover w-full"
+                      src="images/8.png"
+                      alt="faj2uifuuaul6u_Two"
+                    />
                   </div>
                 </div>
+              </div>
+            </div>
           </div>
         </div>
         <Footer />

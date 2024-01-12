@@ -11,20 +11,20 @@ const Banner = () => {
       src="images/6.png"
       alt="lucifersOne"
     />
-    <div className="absolute bottom-[10%] flex flex-col md:gap-10  justify-start left-[2%] w-[70%] sm:w-[90%]">
+    <div className="absolute bottom-[12%] flex flex-col md:gap-10  justify-start left-[2%] w-[70%] sm:w-[90%]">
       <div className="flex flex-col  justify-start w-full">
         <div className="flex flex-col  justify-start w-full">
           <Text
             className="text-base text-gray-100 "
             size="txtOpenSansRomanBold16Gray100"
           >
-            Marvel’s
+            Magic
           </Text>
           <Text
-            className="mr-[18px] mt-2 sm:mt-0 sm:text-[27px] md:text-[46px] text-[40px]  text-gray-100"
+            className="mr-[18px] mt-1 sm:mt-0 sm:text-[27px] md:text-[46px] text-[50px]  text-gray-100"
             size="txtOpenSansRomanExtraBold50"
           >
-            Venom 2: Let There be Carnage
+            Anikulapo
           </Text>
           <div className="flex flex-row gap-[53px] sm:gap-[30px] sm:mt-[0em] items-start  w-[50%] md:w-full">
             <Text
@@ -61,13 +61,11 @@ const Banner = () => {
             className="mt-0 text-gray-100 text-lg w-[80%] text-justify sm:w-full sm:text-[14px] sm:leading-4"
             size="txtOpenSansRomanRegular20 "
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit.Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit.Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit.Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit.Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit.Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit.
+           It tells the story of Saro, a man seeking for greener pasture, but unfolding
+           events and his affair with the king's wife, he encounters his untimely death
+           and with Akala, a mystical bird belived to give and take life. 
+           One of kind mystical folkklore drama revolving around the life of Saro, 
+           a young zealous man seeking for a greener pesture in the great Oyo Kingdom.
           </Text>
         </div>
       </div>
