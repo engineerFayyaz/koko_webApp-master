@@ -19,13 +19,13 @@ const MoviesPage = () => {
            {/* <Banner /> */}
 
            <div className="flex flex-col justify-start w-full">
-            <div className="font-opensans h-[700px] max-w-[2021px] md:h-[529px]  mx-auto md:px-5 relative w-full">
+            <div className="font-opensans h-[700px] max-w-[2021px] md:h-[529px] sm:h-[400px]  mx-auto md:px-5 sm:px-0  relative w-full">
               <Img
                 className="h-[100%] m-auto  object-fill w-full "
                 src="images/25.png"
                 alt="lucifersOne"
               />
-              <div className="absolute bottom-[10%] flex flex-col gap-[18px] items-start justify-start left-[4%] w-[57%]">
+              <div className="absolute bottom-[10%] sm:left-[2%] sm:bottom-[30%]  flex flex-col gap-[18px] items-start justify-start left-[4%] w-[77%] sm:w-[95%]">
                 <Text
                   className="text-base text-gray-100 text-right"
                   size="txtOpenSansRomanBold16Gray100"
@@ -34,21 +34,21 @@ const MoviesPage = () => {
                 </Text>
                 <div className="md:h-[137px] h-[200px] relative w-full mt-[-20px]">
                   <Text
-                    className="absolute inset-x-[0] mx-auto md:text-5xl text-[60px] text-gray-100  w-max"
+                    className="absolute inset-x-[0] mx-auto md:text-5xl text-[60px] sm:text-[35px] text-gray-100  w-auto"
                     size="txtOpenSansRomanExtraBold100"
                   >
-                    Venom 2: Let there be Carnage
+                    Young, Famous & African
                   </Text>
                   <Img
-                    className="absolute bottom-[18%] h-18 left-[40%]"
+                    className="absolute bottom-[18%] h-18 left-[40%] sm:h-10 sm:left-[80%] sm:bottom-[6%]"
                     src="images/img_bookmark.svg"
                     alt="bookmark"
                   />
-                  <div className="absolute bottom-[8%] flex flex-col font-poppins items-center justify-start left-[0] ">
+                  <div className="absolute bottom-[10%] sm:bottom-[-10%]  flex flex-col font-poppins items-center justify-start left-[0] ">
                     <div className="flex flex-col justify-start w-full">
-                      <div className="flex flex-row gap-[38px] items-center justify-between ml-1.5 md:ml-[0] w-[100%] md:w-full">
+                      <div className="flex flex-row gap-[38px] items-center justify-between ml-1.5 md:ml-[0] w-[100%] md:w-full  sm:gap-[15px]">
                         <Text
-                          className="text-gray-100  text-lg"
+                          className="text-gray-100  text-lg sm:text-md"
                           size="txtPoppinsBold20"
                         >
                           <span className="text-gray-100 font-opensans font-normal">
@@ -59,7 +59,7 @@ const MoviesPage = () => {
                           </span>
                         </Text>
                         <Text
-                          className="text-gray-100 text-right text-lg"
+                          className="text-gray-100 text-right text-lg sm:text-md"
                           size="txtPoppinsRegular20Gray100"
                         >
                           <span className="text-gray-100 font-opensans font-normal">
@@ -92,7 +92,7 @@ const MoviesPage = () => {
                 </div>
               </div>
             </div>
-{/* 
+
             <Text
               className="md:ml-[0] ml-[50px] mt-8 md:text-3xl sm:text-[28px] text-[32px] text-gray-100"
               size="txtOpenSansRomanBold32Gray100"
@@ -245,7 +245,7 @@ const MoviesPage = () => {
                   September 17, 2021
                 </span>
               </Text>
-            </div> */}
+            </div>
 
             <Text
               className="md:ml-[0] ml-[50px] mt-7 md:text-3xl sm:text-[28px] text-[32px] text-gray-100"
